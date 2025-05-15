@@ -47,7 +47,7 @@ function draw() {
     playerY = playerY + 3 + score/15;
   }
   
-  avoid.y += 3.5 + score/10;
+  avoid.y += 5 + score/5;
   if(avoid.y > height + avoid.image.height/2){
     if(avoid.visible){
     score += 1;
